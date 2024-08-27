@@ -112,9 +112,9 @@ function App() {
     <>
       <Header/>
         <Routes>
-            <Route path="/" element={<UserForm />} />
+            <Route path="/personality_quiz/" element={<UserForm />} />
             <Route
-                path="/quiz"
+                path="/personality_quiz/quiz"
                 element={
                     currentQuestionIndex < questions.length  ? (
                         <Question question={questions[currentQuestionIndex].question} options={Object.keys((questions[currentQuestionIndex].options))} onAnswer={handleAnswer} />
@@ -123,7 +123,7 @@ function App() {
                     )
                 }
             />
-            <Route path="/about" element={<About />} />
+            <Route path="/personality_quiz/about" element={<About />} />
         </Routes>
     </>
   )

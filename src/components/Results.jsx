@@ -11,7 +11,7 @@ export default function Results({ element, artwork }) {
     function Restart() {
         setCurrentQuestionIndex(0);
         setAnswers([]);
-        window.history.pushState({}, '', '/');
+        window.history.pushState({}, '', '/personality_quiz/');
         const navEvent = new PopStateEvent('popstate');
         window.dispatchEvent(navEvent);
     }

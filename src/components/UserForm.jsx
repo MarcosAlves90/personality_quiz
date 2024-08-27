@@ -9,7 +9,7 @@ export default function UserForm() {
         e.preventDefault();
         sessionStorage.setItem('userName', inputName);
         setName(inputName);
-        window.history.pushState({}, '', '/quiz');
+        window.history.pushState({}, '', '/personality_quiz/quiz');
         const navEvent = new PopStateEvent('popstate');
         window.dispatchEvent(navEvent);  // Dispatch a navigation event
     }
