@@ -123,7 +123,7 @@ function App() {
                     )
                 }
             />
-            <Route path="/personality_quiz/about" element={<About />} />
+            <Route path="/about" element={<About />} />
         </Routes>
     </>
   )
