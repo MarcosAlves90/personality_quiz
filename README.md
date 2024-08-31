@@ -10,7 +10,7 @@
 
 > A quiz to find out which breed of dog you would be.
 > 
-> Site: [Which Dog Are You?](https://marcosalves90.github.io/personality_quiz/)
+> Site: [Which Dog Are You?](https://which-dog-are-you.vercel.app)
 
 ### Description
 
