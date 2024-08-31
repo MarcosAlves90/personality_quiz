@@ -8,10 +8,10 @@ export default function Header() {
             <p>(based on completely random things)</p>
             <nav className={"nav-bar"}>
                 <p className={"p-scale"}>
-                    <Link className={"nav-link"} to="/personality_quiz/">Home</Link>
+                    <Link className={"nav-link"} to="/">Home</Link>
                 </p>
                 <p className={"p-scale"}>
-                    <Link className={"nav-link"} to="/personality_quiz/about">About</Link>
+                    <Link className={"nav-link"} to="/about">About</Link>
                 </p>
             </nav>
         </header>

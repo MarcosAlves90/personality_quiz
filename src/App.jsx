@@ -112,9 +112,9 @@ function App() {
     <>
       <Header/>
         <Routes>
-            <Route path="/personality_quiz/" element={<UserForm />} />
+            <Route path="/" element={<UserForm />} />
             <Route
-                path="/personality_quiz/quiz"
+                path="/quiz"
                 element={
                     currentQuestionIndex < questions.length  ? (
                         <Question question={questions[currentQuestionIndex].question} options={Object.keys((questions[currentQuestionIndex].options))} onAnswer={handleAnswer} />

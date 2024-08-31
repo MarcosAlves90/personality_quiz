@@ -8,7 +8,7 @@ export default function Question({ question, options, onAnswer }) {
 
     useEffect(() => {
         if (name === null) {
-            window.history.pushState({}, '', '/personality_quiz/');
+            window.history.pushState({}, '', '/');
             const navEvent = new PopStateEvent('popstate');
             window.dispatchEvent(navEvent);
         }
