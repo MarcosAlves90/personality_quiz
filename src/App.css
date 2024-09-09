@@ -120,6 +120,35 @@ form {
 
 .dog-image {
   max-height: 31.25vw;
-  min-width: 300px;
+  min-width: 30vw;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .dog-image {
+    max-height: 50vw;
+    min-width: 50vw;
+  }
+  body {
+    .question-buttons {
+      flex-direction: column;
+      .question-button {
+        margin: 2vw;
+        width: 100%;
+        padding: 3vw;
+      }
+    }
+  }
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    button, input {
+      box-sizing: border-box;
+      margin: 2vw;
+      width: 100%;
+      padding: 3vw;
+    }
+  }
 }

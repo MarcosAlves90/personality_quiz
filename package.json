@@ -1,7 +1,7 @@
 {
   "name": "personality_quiz",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://marcosalves90.github.io/personality_quiz",
   "type": "module",
   "scripts": {
