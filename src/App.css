@@ -119,24 +119,44 @@ form {
 }
 
 .dog-image {
-  max-height: 31.25vw;
-  min-width: 30vw;
+  max-height: 100%;
+  max-width: 25vw;
+  min-width: 25vw;
   object-fit: cover;
 }
 
 @media (max-width: 768px) {
   .dog-image {
-    max-height: 50vw;
-    min-width: 50vw;
+    max-height: 100%;
+    max-width: 70vw;
+    min-width: 70vw;
   }
   body {
+    .h2-question {
+      font-size: 5vw;
+    }
     .question-buttons {
       flex-direction: column;
-      .question-button {
-        margin: 2vw;
-        width: 100%;
-        padding: 3vw;
+    }
+    .question-buttons .question-button, .results-text .restart-button {
+      margin: 2vw;
+      width: 100%;
+      padding: 3vw;
+    }
+    .results-text {
+      flex-direction: column;
+    }
+  }
+  header {
+    .nav-bar {
+      .p-scale {
+        margin: 3vw;
       }
+    }
+  }
+  center {
+    .common-p {
+      width: 100%;
     }
   }
   form {

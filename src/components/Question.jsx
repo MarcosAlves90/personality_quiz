@@ -16,7 +16,7 @@ export default function Question({ question, options, onAnswer }) {
 
     return (
         <div>
-            <h2>{question}</h2>
+            <h2 className={"h2-question"}>{question}</h2>
             <div className={"question-buttons"}>
                 {options.map(function (option) {
                     return (
